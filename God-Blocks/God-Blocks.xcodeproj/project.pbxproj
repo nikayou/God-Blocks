@@ -13,7 +13,6 @@
 		ACFB47611A0F9DF100AAE16E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ACFB47601A0F9DF100AAE16E /* GameScene.sks */; };
 		ACFB47631A0F9DF100AAE16E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACFB47621A0F9DF100AAE16E /* Images.xcassets */; };
 		ACFB47661A0F9DF100AAE16E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACFB47641A0F9DF100AAE16E /* MainMenu.xib */; };
-		ACFB47721A0F9DF100AAE16E /* God_BlocksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFB47711A0F9DF100AAE16E /* God_BlocksTests.m */; };
 		ACFB477C1A0F9EFE00AAE16E /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFB477B1A0F9EFE00AAE16E /* Player.m */; };
 		ACFB47801A0F9FCD00AAE16E /* Shot.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFB477F1A0F9FCD00AAE16E /* Shot.m */; };
 		ACFB47831A0FCB4400AAE16E /* Enemy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFB47821A0FCB4400AAE16E /* Enemy.m */; };
@@ -26,16 +25,6 @@
 		B6DA969B1A1A540A00FA7FF0 /* mountain.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DA969A1A1A540A00FA7FF0 /* mountain.png */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		ACFB476C1A0F9DF100AAE16E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = ACFB474B1A0F9DF100AAE16E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ACFB47521A0F9DF100AAE16E;
-			remoteInfo = "God-Blocks";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		ACFB47531A0F9DF100AAE16E /* God-Blocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "God-Blocks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACFB47571A0F9DF100AAE16E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,9 +36,6 @@
 		ACFB47601A0F9DF100AAE16E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		ACFB47621A0F9DF100AAE16E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		ACFB47651A0F9DF100AAE16E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		ACFB476B1A0F9DF100AAE16E /* God-BlocksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "God-BlocksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACFB47701A0F9DF100AAE16E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ACFB47711A0F9DF100AAE16E /* God_BlocksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = God_BlocksTests.m; sourceTree = "<group>"; };
 		ACFB477B1A0F9EFE00AAE16E /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 		ACFB477D1A0F9F0E00AAE16E /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		ACFB477E1A0F9F9C00AAE16E /* Shot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shot.h; sourceTree = "<group>"; };
@@ -80,13 +66,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ACFB47681A0F9DF100AAE16E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -94,7 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				ACFB47551A0F9DF100AAE16E /* God-Blocks */,
-				ACFB476E1A0F9DF100AAE16E /* God-BlocksTests */,
 				ACFB47541A0F9DF100AAE16E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,7 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				ACFB47531A0F9DF100AAE16E /* God-Blocks.app */,
-				ACFB476B1A0F9DF100AAE16E /* God-BlocksTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,23 +129,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		ACFB476E1A0F9DF100AAE16E /* God-BlocksTests */ = {
-			isa = PBXGroup;
-			children = (
-				ACFB47711A0F9DF100AAE16E /* God_BlocksTests.m */,
-				ACFB476F1A0F9DF100AAE16E /* Supporting Files */,
-			);
-			path = "God-BlocksTests";
-			sourceTree = "<group>";
-		};
-		ACFB476F1A0F9DF100AAE16E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				ACFB47701A0F9DF100AAE16E /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -189,24 +149,6 @@
 			productReference = ACFB47531A0F9DF100AAE16E /* God-Blocks.app */;
 			productType = "com.apple.product-type.application";
 		};
-		ACFB476A1A0F9DF100AAE16E /* God-BlocksTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ACFB47781A0F9DF100AAE16E /* Build configuration list for PBXNativeTarget "God-BlocksTests" */;
-			buildPhases = (
-				ACFB47671A0F9DF100AAE16E /* Sources */,
-				ACFB47681A0F9DF100AAE16E /* Frameworks */,
-				ACFB47691A0F9DF100AAE16E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				ACFB476D1A0F9DF100AAE16E /* PBXTargetDependency */,
-			);
-			name = "God-BlocksTests";
-			productName = "God-BlocksTests";
-			productReference = ACFB476B1A0F9DF100AAE16E /* God-BlocksTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -218,10 +160,6 @@
 				TargetAttributes = {
 					ACFB47521A0F9DF100AAE16E = {
 						CreatedOnToolsVersion = 6.1;
-					};
-					ACFB476A1A0F9DF100AAE16E = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = ACFB47521A0F9DF100AAE16E;
 					};
 				};
 			};
@@ -239,7 +177,6 @@
 			projectRoot = "";
 			targets = (
 				ACFB47521A0F9DF100AAE16E /* God-Blocks */,
-				ACFB476A1A0F9DF100AAE16E /* God-BlocksTests */,
 			);
 		};
 /* End PBXProject section */
@@ -253,13 +190,6 @@
 				ACFB47631A0F9DF100AAE16E /* Images.xcassets in Resources */,
 				B6DA969B1A1A540A00FA7FF0 /* mountain.png in Resources */,
 				ACFB47661A0F9DF100AAE16E /* MainMenu.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ACFB47691A0F9DF100AAE16E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,23 +215,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ACFB47671A0F9DF100AAE16E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ACFB47721A0F9DF100AAE16E /* God_BlocksTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		ACFB476D1A0F9DF100AAE16E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = ACFB47521A0F9DF100AAE16E /* God-Blocks */;
-			targetProxy = ACFB476C1A0F9DF100AAE16E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		ACFB47641A0F9DF100AAE16E /* MainMenu.xib */ = {
@@ -415,44 +329,6 @@
 			};
 			name = Release;
 		};
-		ACFB47791A0F9DF100AAE16E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "God-BlocksTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/God-Blocks.app/Contents/MacOS/God-Blocks";
-			};
-			name = Debug;
-		};
-		ACFB477A1A0F9DF100AAE16E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "God-BlocksTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/God-Blocks.app/Contents/MacOS/God-Blocks";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -470,15 +346,6 @@
 			buildConfigurations = (
 				ACFB47761A0F9DF100AAE16E /* Debug */,
 				ACFB47771A0F9DF100AAE16E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ACFB47781A0F9DF100AAE16E /* Build configuration list for PBXNativeTarget "God-BlocksTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ACFB47791A0F9DF100AAE16E /* Debug */,
-				ACFB477A1A0F9DF100AAE16E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

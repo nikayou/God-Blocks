@@ -93,6 +93,7 @@
         case JUPITER:
             self.cursor.position = CGPointMake(850,50);
             break;
+        case NB_FACTIONS:;
     }
 }
 
@@ -134,6 +135,7 @@
             name.text = @"Jupiter";
             power.text = @"Extra life";
             break;
+        case NB_FACTIONS:;
     }
     SKNode * character = [[SKNode alloc]init];
     power.fontColor = [NSColor blackColor];
